@@ -1,0 +1,1224 @@
+{
+  "A001": {
+    "nombre": "MARTILLO DE DIORITA",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "BRONZE",
+    "valor_w": "8",
+    "valor_a": "1",
+    "peso": "4",
+    "pg": "25",
+    "rlua": [
+      "CLASS:MINER"
+    ],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A002": {
+    "nombre": "CINCEL DE MINERO",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
+    "tier": "BRONZE",
+    "valor_w": "5",
+    "valor_a": "1",
+    "peso": "1",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "A003": {
+    "nombre": "LANZA DE GUARDIA DEL WADI",
+    "tipo": "A",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "3",
+    "pg": "7",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A004": {
+    "nombre": "HONDA DE CUERO DE GACELA",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
+    "tier": "BRONZE",
+    "valor_w": "10",
+    "valor_a": "1",
+    "peso": "0.5",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A005": {
+    "nombre": "PICO  DE OBSIDIANA",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "2",
+    "tier": "SILVER",
+    "valor_w": "45",
+    "valor_a": "5",
+    "peso": "5",
+    "pg": "20",
+    "rlua": [
+      "CLASS:MINER",
+      "FUE>=14"
+    ],
+    "mlua": {
+      "atk": 2
+    }
+  },
+  "A006": {
+    "nombre": "KOPESH",
+    "tipo": "A",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "1",
+    "tier": "SILVER",
+    "valor_w": "35",
+    "valor_a": "4",
+    "peso": "3",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {
+      "atk": 2
+    }
+  },
+  "A007": {
+    "nombre": "COLA DE AKRAB",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "1.5",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A008": {
+    "nombre": "ARCO SIMPLE DE ACACIA",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "2",
+    "tier": "SILVER",
+    "valor_w": "22",
+    "valor_a": "2",
+    "peso": "1",
+    "pg": "4",
+    "rlua": [
+      "DEX>=12"
+    ],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A009": {
+    "nombre": "DAGA DE LA LUNA",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
+    "tier": "GOLD",
+    "valor_w": "120",
+    "valor_a": "12",
+    "peso": "1",
+    "pg": "15",
+    "rlua": [],
+    "mlua": {
+      "atk": 2,
+      "eva": 1
+    }
+  },
+  "A010": {
+    "nombre": "MANDOBLE OXIDADO",
+    "tipo": "A",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "2",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "3",
+    "peso": "6",
+    "pg": "10",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A011": {
+    "nombre": "GRAN LANZA ASHKUNITA",
+    "tipo": "A",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "200",
+    "valor_a": "20",
+    "peso": "5",
+    "pg": "20",
+    "rlua": [
+      "FUE>=14"
+    ],
+    "mlua": {
+      "atk": 2
+    }
+  },
+  "A012": {
+    "nombre": "MANOPLAS DEL WADI",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "BRONZE",
+    "valor_w": "6",
+    "valor_a": "1",
+    "peso": "1",
+    "pg": "6",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A013": {
+    "nombre": "GARROTE SIMPLE",
+    "tipo": "A",
+    "subcategoria": "S",
+    "slot": "H",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "3",
+    "valor_a": "-",
+    "peso": "2",
+    "pg": "6",
+    "rlua": [],
+    "mlua": {}
+  },
+  "B001": {
+    "nombre": "ARMADURA DE GUARDIA DEL WADI",
+    "tipo": "B",
+    "subcategoria": "M",
+    "slot": "C",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "50",
+    "valor_a": "5",
+    "peso": "10",
+    "pg": "45",
+    "rlua": [
+      "FUE>=11"
+    ],
+    "mlua": {
+      "arm": 3,
+      "eva": 1
+    }
+  },
+  "B002": {
+    "nombre": "ROPAJES DE MINERO",
+    "tipo": "B",
+    "subcategoria": "L",
+    "slot": "C",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "8",
+    "valor_a": "1",
+    "peso": "3",
+    "pg": "8",
+    "rlua": [],
+    "mlua": {
+      "eva": 2
+    }
+  },
+  "B003": {
+    "nombre": "ARMADURA DE FARID",
+    "tipo": "B",
+    "subcategoria": "H",
+    "slot": "C",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "70",
+    "valor_a": "7",
+    "peso": "12",
+    "pg": "65",
+    "rlua": [
+      "FUE>=13"
+    ],
+    "mlua": {
+      "arm": 4,
+      "eva": 1,
+      "res": "CORT"
+    }
+  },
+  "B004": {
+    "nombre": "LAMINADO DEL DESIERTO",
+    "tipo": "B",
+    "subcategoria": "H",
+    "slot": "C",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "40",
+    "valor_a": "4",
+    "peso": "14",
+    "pg": "70",
+    "rlua": [
+      "FUE>=13"
+    ],
+    "mlua": {
+      "arm": 5,
+      "eva": -2,
+      "res": "CONT"
+    }
+  },
+  "B005": {
+    "nombre": "GORRO DE CUERO DEL WADI",
+    "tipo": "B",
+    "subcategoria": "M",
+    "slot": "A",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "10",
+    "valor_a": "1",
+    "peso": "1",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {
+      "arm": 1
+    }
+  },
+  "B006": {
+    "nombre": "BOTAS DE MINERO REFORZADAS",
+    "tipo": "B",
+    "subcategoria": "M",
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "45",
+    "valor_a": "5",
+    "peso": "2",
+    "pg": "25",
+    "rlua": [],
+    "mlua": {
+      "arm": 1,
+      "eva": 1
+    }
+  },
+  "B007": {
+    "nombre": "BRAZALES DE MINERO VETERANO",
+    "tipo": "B",
+    "subcategoria": "L",
+    "slot": "A",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "90",
+    "valor_a": "9",
+    "peso": "1.5",
+    "pg": "9",
+    "rlua": [],
+    "mlua": {
+      "eva": 2,
+      "FUE": 1
+    }
+  },
+  "B008": {
+    "nombre": "FALDA DE LINO ENCERRADO",
+    "tipo": "B",
+    "subcategoria": "L",
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "28",
+    "valor_a": "3",
+    "peso": "1.5",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {
+      "eva": 1
+    }
+  },
+  "B009": {
+    "nombre": "HOMBRERAS Y GORJAL",
+    "tipo": "B",
+    "subcategoria": "M",
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "60",
+    "valor_a": "6",
+    "peso": "8",
+    "pg": "36",
+    "rlua": [
+      "FUE>=12"
+    ],
+    "mlua": {
+      "arm": 2
+    }
+  },
+  "B010": {
+    "nombre": "ESCUDO DE MADERA REFORZADO",
+    "tipo": "B",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "40",
+    "valor_a": "4",
+    "peso": "6",
+    "pg": "30",
+    "rlua": [
+      "FUE>=12"
+    ],
+    "mlua": {
+      "arm": 2,
+      "eva": 1
+    }
+  },
+  "B011": {
+    "nombre": "ESCUDO DE CUERO ENDURECIDO",
+    "tipo": "B",
+    "subcategoria": "L",
+    "slot": "H",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "22",
+    "valor_a": "2",
+    "peso": "4",
+    "pg": "22",
+    "rlua": [],
+    "mlua": {
+      "arm": 1,
+      "eva": 1
+    }
+  },
+  "C001": {
+    "nombre": "ZURRON DE PIEL DE GACELA",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "2",
+    "pg": "6",
+    "rlua": [],
+    "mlua": {}
+  },
+  "C002": {
+    "nombre": "SANDALÍAS LIGERAS DE ARENA",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "0.5",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {
+      "stealth": 3
+    }
+  },
+  "C003": {
+    "nombre": "ANTORCHA SIEMPREARDIENTE",
+    "tipo": "C",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "55",
+    "valor_a": "6",
+    "peso": "1",
+    "pg": "6",
+    "rlua": [],
+    "mlua": {}
+  },
+  "C004": {
+    "nombre": "CRISTALES PARA MINERÍA",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "A",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "15",
+    "valor_a": "2",
+    "peso": "0.2",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "C005": {
+    "nombre": "CAPA TEJIDA DE LAMINI",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "A",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "18",
+    "valor_a": "2",
+    "peso": "1",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {
+      "CAR": 1
+    }
+  },
+  "C006": {
+    "nombre": "SOMBRERO DE ERMITAÑO",
+    "tipo": "C",
+    "subcategoria": "M",
+    "slot": "A",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.5",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {
+      "arm": 1,
+      "wis": 1
+    }
+  },
+  "C007": {
+    "nombre": "MÀSCARA DE LINO DE SHU",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "60",
+    "valor_a": "6",
+    "peso": "0.3",
+    "pg": "10",
+    "rlua": [],
+    "mlua": {}
+  },
+  "C008": {
+    "nombre": "CARCAJ DE FLECHAS ROJAS",
+    "tipo": "C",
+    "subcategoria": "M",
+    "slot": "H",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "50",
+    "valor_a": "5",
+    "peso": "2",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "C009": {
+    "nombre": "CARCAJ COMÚN",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "H",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "6",
+    "valor_a": "1",
+    "peso": "1.5",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {}
+  },
+  "C010": {
+    "nombre": "TAHALI DE CAPITÁN",
+    "tipo": "C",
+    "subcategoria": "C",
+    "slot": "A",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "100",
+    "valor_a": "10",
+    "peso": "1",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "C011": {
+    "nombre": "BANDAS DEL PATRÓN MINERO",
+    "tipo": "C",
+    "subcategoria": "M",
+    "slot": "A",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "85",
+    "valor_a": "9",
+    "peso": "6",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {
+      "CON": 1,
+      "PV": 4
+    }
+  },
+  "D001": {
+    "nombre": "CAMPANILLA DE PLATA (RESTAURADA)",
+    "tipo": "D",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "300",
+    "valor_a": "30",
+    "peso": "0.3",
+    "pg": "10",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D003": {
+    "nombre": "CUERDA DE FIBRA DE PAPIRO",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "22",
+    "valor_a": "2",
+    "peso": "3",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D004": {
+    "nombre": "FUELLE DE MANO DE CUERO",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "3",
+    "peso": "5",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D005": {
+    "nombre": "CANTIMPLORA HERMÉTICA",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "12",
+    "valor_a": "1",
+    "peso": "1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D006": {
+    "nombre": "PALANCA DE MADERA DE ACACIA",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "5",
+    "valor_a": "1",
+    "peso": "2",
+    "pg": "8",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D007": {
+    "nombre": "LAMPARA DE ACEITE",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "8",
+    "valor_a": "1",
+    "peso": "1.5",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D008": {
+    "nombre": "LAMPARA DE PLATILLO CON SAL",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "2",
+    "pg": "6",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D009": {
+    "nombre": "GRILLETES DE BRONCE",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "15",
+    "valor_a": "2",
+    "peso": "8",
+    "pg": "30",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D010": {
+    "nombre": "EL CORAZÓN DE LA LUNA",
+    "tipo": "D",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "8",
+    "pg": "50",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D011": {
+    "nombre": "ESTATUILLA DE BARRO",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.5",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "D012": {
+    "nombre": "BOLAS",
+    "tipo": "D",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "12",
+    "valor_a": "1",
+    "peso": "3",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {}
+  },
+  "E001": {
+    "nombre": "COLGANTES DE GEODAS DE PLATA",
+    "tipo": "E",
+    "subcategoria": "R",
+    "slot": "T",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "3",
+    "peso": "0.1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {
+      "WIS": 1,
+      "PV": 2
+    }
+  },
+  "E002": {
+    "nombre": "LA PROMESA DEL MUNDO",
+    "tipo": "E",
+    "subcategoria": "L",
+    "slot": "T",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {
+      "religion": 4
+    }
+  },
+  "E003": {
+    "nombre": "AMULETO GADAK",
+    "tipo": "E",
+    "subcategoria": "U",
+    "slot": "T",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "0.2",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {
+      "FUE": 2,
+      "PV": 2
+    }
+  },
+  "E004": {
+    "nombre": "BROCHE DE LOTO",
+    "tipo": "E",
+    "subcategoria": "U",
+    "slot": "T",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "120",
+    "valor_a": "12",
+    "peso": "0.1",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {
+      "atk": 1,
+      "eva": 1
+    }
+  },
+  "E005": {
+    "nombre": "HUESOS DE SHUM",
+    "tipo": "E",
+    "subcategoria": "U",
+    "slot": "T",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "0.1",
+    "pg": "5",
+    "rlua": [],
+    "mlua": {
+      "arcana": 4
+    }
+  },
+  "E006": {
+    "nombre": "DARDOS DE MADERA",
+    "tipo": "E",
+    "subcategoria": "R",
+    "slot": "T",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "5",
+    "valor_a": "1",
+    "peso": "0.2",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {
+      "sleight_of_hands": 4
+    }
+  },
+  "F001": {
+    "nombre": "ODRE DE AGUA CON VINAGRE DE LA TIA MILI",
+    "tipo": "F",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "3",
+    "valor_a": "-",
+    "peso": "2",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F002": {
+    "nombre": "UNGUENTO DE SAUCE Y CAÑAMO",
+    "tipo": "F",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "15",
+    "valor_a": "2",
+    "peso": "0.3",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F003": {
+    "nombre": "VIAL DE LOCURA MINERA",
+    "tipo": "F",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.3",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F004": {
+    "nombre": "MIRADA PLATEADA",
+    "tipo": "F",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F005": {
+    "nombre": "PAN DE CEBADA CON MIEL",
+    "tipo": "F",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "2",
+    "valor_a": "-",
+    "peso": "0.3",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F006": {
+    "nombre": "POCIÓN DE CURAR HERIDAS MENORES",
+    "tipo": "F",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "150",
+    "valor_a": "15",
+    "peso": "0.3",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F007": {
+    "nombre": "VASIJA DE ALQUIMIA",
+    "tipo": "F",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "35",
+    "valor_a": "4",
+    "peso": "1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F008": {
+    "nombre": "POLVO DE MALAQUITA DEL WADI",
+    "tipo": "F",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "60",
+    "valor_a": "6",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F009": {
+    "nombre": "PIEDRA DE AFILAR",
+    "tipo": "F",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "0.5",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F010": {
+    "nombre": "BOLSA DE MARAÑA",
+    "tipo": "F",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "0.3",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F011": {
+    "nombre": "GALLETAS DEL ERMITAÑO",
+    "tipo": "F",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.2",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "F012": {
+    "nombre": "CARGA ARCANA",
+    "tipo": "F",
+    "subcategoria": "M",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "400",
+    "valor_a": "40",
+    "peso": "8",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G001": {
+    "nombre": "CAMPANILLA SULFURADA",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.2",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G002": {
+    "nombre": "PEINE DE PLATA BLANCA",
+    "tipo": "G",
+    "subcategoria": "R",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "70",
+    "valor_a": "7",
+    "peso": "0.1",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G003": {
+    "nombre": "DIARIO DE KALI",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "2",
+    "valor_a": "-",
+    "peso": "0.3",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G004": {
+    "nombre": "MANTA DEL DESIERTO",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "8",
+    "valor_a": "1",
+    "peso": "1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G005": {
+    "nombre": "LLAVE ALIJO DE LOS GUARDIAS",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G006": {
+    "nombre": "LLAVE DE GRILLETES DE BRONCE",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G007": {
+    "nombre": "CUENCO DE CERÁMICA AZUL",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "2",
+    "valor_a": "-",
+    "peso": "0.5",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G008": {
+    "nombre": "CESTA DE MIMBRE",
+    "tipo": "G",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.5",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "H001": {
+    "nombre": "CARTA DE FARID A HAMIR",
+    "tipo": "H",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "H002": {
+    "nombre": "MAPA DEL ERMITAÑO",
+    "tipo": "H",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "H003": {
+    "nombre": "CUENTA DE KHALIT",
+    "tipo": "H",
+    "subcategoria": "U",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.5",
+    "pg": "45",
+    "rlua": [],
+    "mlua": {}
+  },
+  "H004": {
+    "nombre": "ÍDOLO DE AL-NAYL",
+    "tipo": "H",
+    "subcategoria": "U",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "12",
+    "pg": "45",
+    "rlua": [],
+    "mlua": {}
+  },
+  "H005": {
+    "nombre": "CIELO DESPEJADO",
+    "tipo": "H",
+    "subcategoria": "R",
+    "slot": "-",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "0.2",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "I001": {
+    "nombre": "PEPITAS DE GALENA ARGENTIFERA",
+    "tipo": "I",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "I002": {
+    "nombre": "DADOS DE HUESO",
+    "tipo": "I",
+    "subcategoria": "C",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "I003": {
+    "nombre": "GRILLETES DESACTIVADOS",
+    "tipo": "I",
+    "subcategoria": "R",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "-",
+    "valor_a": "-",
+    "peso": "8",
+    "pg": "50",
+    "rlua": [],
+    "mlua": {}
+  }
+}

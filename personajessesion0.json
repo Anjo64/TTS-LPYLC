@@ -1,0 +1,864 @@
+{
+  "PJ01": {
+    "nombre": "KABUL",
+    "clase": "MINERO",
+    "arquetipo": "CONTROLADOR",
+    "nivel": 1,
+    "caracteristicas": {
+      "FUE": 13,
+      "DEX": 10,
+      "CON": 13,
+      "INT": 10,
+      "WIS": 16,
+      "CAR": 9
+    },
+    "modificadores": {
+      "FUE": 1,
+      "DEX": 0,
+      "CON": 1,
+      "INT": 0,
+      "WIS": 3,
+      "CAR": -1
+    },
+    "bonus_competencia": 1,
+    "pv_max": 16,
+    "pv_actual": 16,
+    "evasion_base": 10,
+    "armadura_base": 0,
+    "escudo_base": 0,
+    "cd_base": 15,
+    "recursos": {
+      "OM": {
+        "actual": 8,
+        "max": 8
+      }
+    },
+    "competencias": [
+      "persuasion",
+      "insight",
+      "intimidation"
+    ],
+    "saves_competencia": [
+      "WIS"
+    ],
+    "skills": {
+      "athletics": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "FUE"
+      },
+      "acrobatics": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "stealth": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "sleight_of_hands": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "arcana": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "history": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "investigation": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "nature": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "religion": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "insight": {
+        "valor": 4,
+        "competencia": true,
+        "stat_base": "WIS"
+      },
+      "medicine": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "perception": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "survival": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "animal_handling": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "deceive": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "intimidation": {
+        "valor": 0,
+        "competencia": true,
+        "stat_base": "CAR"
+      },
+      "performance": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "persuasion": {
+        "valor": 0,
+        "competencia": true,
+        "stat_base": "CAR"
+      }
+    },
+    "saves": {
+      "FUE": 1,
+      "DEX": 0,
+      "CON": 1,
+      "INT": 0,
+      "WIS": 4,
+      "CAR": -1
+    }
+  },
+  "PJ02": {
+    "nombre": "NASIR",
+    "clase": "MINERO",
+    "arquetipo": "FLANCO",
+    "nivel": 1,
+    "caracteristicas": {
+      "FUE": 9,
+      "DEX": 16,
+      "CON": 10,
+      "INT": 11,
+      "WIS": 13,
+      "CAR": 9
+    },
+    "modificadores": {
+      "FUE": -1,
+      "DEX": 3,
+      "CON": 0,
+      "INT": 0,
+      "WIS": 1,
+      "CAR": -1
+    },
+    "bonus_competencia": 1,
+    "pv_max": 13,
+    "pv_actual": 13,
+    "evasion_base": 13,
+    "armadura_base": 0,
+    "escudo_base": 0,
+    "cd_base": 15,
+    "recursos": {
+      "OM": {
+        "actual": 8,
+        "max": 8
+      }
+    },
+    "competencias": [
+      "deceive",
+      "stealth",
+      "sleight_of_hands"
+    ],
+    "saves_competencia": [
+      "DEX"
+    ],
+    "skills": {
+      "athletics": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "FUE"
+      },
+      "acrobatics": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "stealth": {
+        "valor": 4,
+        "competencia": true,
+        "stat_base": "DEX"
+      },
+      "sleight_of_hands": {
+        "valor": 4,
+        "competencia": true,
+        "stat_base": "DEX"
+      },
+      "arcana": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "history": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "investigation": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "nature": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "religion": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "insight": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "medicine": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "perception": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "survival": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "animal_handling": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "deceive": {
+        "valor": 0,
+        "competencia": true,
+        "stat_base": "CAR"
+      },
+      "intimidation": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "performance": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "persuasion": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      }
+    },
+    "saves": {
+      "FUE": -1,
+      "DEX": 4,
+      "CON": 0,
+      "INT": 0,
+      "WIS": 1,
+      "CAR": -1
+    }
+  },
+  "PJ03": {
+    "nombre": "ZEMI",
+    "clase": "MINERO",
+    "arquetipo": "TANQUE",
+    "nivel": 1,
+    "caracteristicas": {
+      "FUE": 14,
+      "DEX": 9,
+      "CON": 16,
+      "INT": 10,
+      "WIS": 13,
+      "CAR": 9
+    },
+    "modificadores": {
+      "FUE": 2,
+      "DEX": -1,
+      "CON": 3,
+      "INT": 0,
+      "WIS": 1,
+      "CAR": -1
+    },
+    "bonus_competencia": 1,
+    "pv_max": 27,
+    "pv_actual": 27,
+    "evasion_base": 9,
+    "armadura_base": 0,
+    "escudo_base": 0,
+    "cd_base": 15,
+    "recursos": {
+      "OM": {
+        "actual": 8,
+        "max": 8
+      }
+    },
+    "competencias": [
+      "athletics",
+      "animal_handling",
+      "nature"
+    ],
+    "saves_competencia": [
+      "CON"
+    ],
+    "skills": {
+      "athletics": {
+        "valor": 3,
+        "competencia": true,
+        "stat_base": "FUE"
+      },
+      "acrobatics": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "stealth": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "sleight_of_hands": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "arcana": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "history": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "investigation": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "nature": {
+        "valor": 1,
+        "competencia": true,
+        "stat_base": "INT"
+      },
+      "religion": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "insight": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "medicine": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "perception": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "survival": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "animal_handling": {
+        "valor": 2,
+        "competencia": true,
+        "stat_base": "WIS"
+      },
+      "deceive": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "intimidation": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "performance": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "persuasion": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      }
+    },
+    "saves": {
+      "FUE": 2,
+      "DEX": -1,
+      "CON": 4,
+      "INT": 0,
+      "WIS": 1,
+      "CAR": -1
+    }
+  },
+  "PJ04": {
+    "nombre": "KAMAN",
+    "clase": "MINERO",
+    "arquetipo": "SOPORTE",
+    "nivel": 1,
+    "caracteristicas": {
+      "FUE": 10,
+      "DEX": 11,
+      "CON": 13,
+      "INT": 10,
+      "WIS": 16,
+      "CAR": 8
+    },
+    "modificadores": {
+      "FUE": 0,
+      "DEX": 0,
+      "CON": 1,
+      "INT": 0,
+      "WIS": 3,
+      "CAR": -1
+    },
+    "bonus_competencia": 1,
+    "pv_max": 14,
+    "pv_actual": 14,
+    "evasion_base": 10,
+    "armadura_base": 0,
+    "escudo_base": 0,
+    "cd_base": 15,
+    "recursos": {
+      "OM": {
+        "actual": 8,
+        "max": 8
+      }
+    },
+    "competencias": [
+      "medicine",
+      "nature",
+      "arcana"
+    ],
+    "saves_competencia": [
+      "WIS"
+    ],
+    "skills": {
+      "athletics": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "FUE"
+      },
+      "acrobatics": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "stealth": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "sleight_of_hands": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "arcana": {
+        "valor": 1,
+        "competencia": true,
+        "stat_base": "INT"
+      },
+      "history": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "investigation": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "nature": {
+        "valor": 1,
+        "competencia": true,
+        "stat_base": "INT"
+      },
+      "religion": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "insight": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "medicine": {
+        "valor": 4,
+        "competencia": true,
+        "stat_base": "WIS"
+      },
+      "perception": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "survival": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "animal_handling": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "deceive": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "intimidation": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "performance": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "persuasion": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "CAR"
+      }
+    },
+    "saves": {
+      "FUE": 0,
+      "DEX": 0,
+      "CON": 1,
+      "INT": 0,
+      "WIS": 4,
+      "CAR": -1
+    }
+  },
+  "PJ05": {
+    "nombre": "BALU",
+    "clase": "MINERO",
+    "arquetipo": "ARTILLERO",
+    "nivel": 1,
+    "caracteristicas": {
+      "FUE": 10,
+      "DEX": 14,
+      "CON": 10,
+      "INT": 16,
+      "WIS": 9,
+      "CAR": 10
+    },
+    "modificadores": {
+      "FUE": 0,
+      "DEX": 2,
+      "CON": 0,
+      "INT": 3,
+      "WIS": -1,
+      "CAR": 0
+    },
+    "bonus_competencia": 1,
+    "pv_max": 11,
+    "pv_actual": 11,
+    "evasion_base": 12,
+    "armadura_base": 0,
+    "escudo_base": 0,
+    "cd_base": 15,
+    "recursos": {
+      "OM": {
+        "actual": 8,
+        "max": 8
+      }
+    },
+    "competencias": [
+      "arcana",
+      "perception",
+      "religion"
+    ],
+    "saves_competencia": [
+      "INT"
+    ],
+    "skills": {
+      "athletics": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "FUE"
+      },
+      "acrobatics": {
+        "valor": 2,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "stealth": {
+        "valor": 2,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "sleight_of_hands": {
+        "valor": 2,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "arcana": {
+        "valor": 4,
+        "competencia": true,
+        "stat_base": "INT"
+      },
+      "history": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "investigation": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "nature": {
+        "valor": 3,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "religion": {
+        "valor": 4,
+        "competencia": true,
+        "stat_base": "INT"
+      },
+      "insight": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "medicine": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "perception": {
+        "valor": 0,
+        "competencia": true,
+        "stat_base": "WIS"
+      },
+      "survival": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "animal_handling": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "deceive": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "intimidation": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "performance": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "persuasion": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "CAR"
+      }
+    },
+    "saves": {
+      "FUE": 0,
+      "DEX": 2,
+      "CON": 0,
+      "INT": 4,
+      "WIS": -1,
+      "CAR": 0
+    }
+  },
+  "PJ06": {
+    "nombre": "LAMINI",
+    "clase": "TEJEDORA",
+    "arquetipo": "SOPORTE",
+    "nivel": 1,
+    "caracteristicas": {
+      "FUE": 9,
+      "DEX": 10,
+      "CON": 11,
+      "INT": 13,
+      "WIS": 13,
+      "CAR": 15
+    },
+    "modificadores": {
+      "FUE": -1,
+      "DEX": 0,
+      "CON": 0,
+      "INT": 1,
+      "WIS": 1,
+      "CAR": 2
+    },
+    "bonus_competencia": 1,
+    "pv_max": 11,
+    "pv_actual": 11,
+    "evasion_base": 10,
+    "armadura_base": 0,
+    "escudo_base": 0,
+    "cd_base": 15,
+    "recursos": {
+      "ILU": {
+        "actual": 4,
+        "max": 4
+      },
+      "PRAG": {
+        "actual": 4,
+        "max": 4
+      }
+    },
+    "competencias": [
+      "insight",
+      "performance",
+      "perception"
+    ],
+    "saves_competencia": [
+      "CAR"
+    ],
+    "skills": {
+      "athletics": {
+        "valor": -1,
+        "competencia": false,
+        "stat_base": "FUE"
+      },
+      "acrobatics": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "stealth": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "sleight_of_hands": {
+        "valor": 0,
+        "competencia": false,
+        "stat_base": "DEX"
+      },
+      "arcana": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "history": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "investigation": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "nature": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "religion": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "INT"
+      },
+      "insight": {
+        "valor": 2,
+        "competencia": true,
+        "stat_base": "WIS"
+      },
+      "medicine": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "perception": {
+        "valor": 2,
+        "competencia": true,
+        "stat_base": "WIS"
+      },
+      "survival": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "animal_handling": {
+        "valor": 1,
+        "competencia": false,
+        "stat_base": "WIS"
+      },
+      "deceive": {
+        "valor": 2,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "intimidation": {
+        "valor": 2,
+        "competencia": false,
+        "stat_base": "CAR"
+      },
+      "performance": {
+        "valor": 3,
+        "competencia": true,
+        "stat_base": "CAR"
+      },
+      "persuasion": {
+        "valor": 2,
+        "competencia": false,
+        "stat_base": "CAR"
+      }
+    },
+    "saves": {
+      "FUE": -1,
+      "DEX": 0,
+      "CON": 0,
+      "INT": 1,
+      "WIS": 1,
+      "CAR": 3
+    }
+  }
+}
