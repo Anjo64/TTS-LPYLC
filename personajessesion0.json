@@ -33,6 +33,10 @@
         "max": 8
       }
     },
+    "weapon_prof": [
+      "S",
+      "M"
+    ],
     "competencias": [
       "persuasion",
       "insight",
@@ -176,6 +180,10 @@
         "max": 8
       }
     },
+    "weapon_prof": [
+      "S",
+      "M"
+    ],
     "competencias": [
       "deceive",
       "stealth",
@@ -319,6 +327,10 @@
         "max": 8
       }
     },
+    "weapon_prof": [
+      "S",
+      "M"
+    ],
     "competencias": [
       "athletics",
       "animal_handling",
@@ -462,6 +474,10 @@
         "max": 8
       }
     },
+    "weapon_prof": [
+      "S",
+      "M"
+    ],
     "competencias": [
       "medicine",
       "nature",
@@ -605,6 +621,10 @@
         "max": 8
       }
     },
+    "weapon_prof": [
+      "S",
+      "M"
+    ],
     "competencias": [
       "arcana",
       "perception",
@@ -752,6 +772,9 @@
         "max": 4
       }
     },
+    "weapon_prof": [
+      "S"
+    ],
     "competencias": [
       "insight",
       "performance",
