@@ -144,7 +144,8 @@
       "INT": 0,
       "WIS": 4,
       "CAR": -1
-    }
+    },
+    "vm_base": 30
   },
   "PJ02": {
     "nombre": "NASIR",
@@ -291,7 +292,8 @@
       "INT": 0,
       "WIS": 1,
       "CAR": -1
-    }
+    },
+    "vm_base": 30
   },
   "PJ03": {
     "nombre": "ZEMI",
@@ -438,7 +440,8 @@
       "INT": 0,
       "WIS": 1,
       "CAR": -1
-    }
+    },
+    "vm_base": 30
   },
   "PJ04": {
     "nombre": "KAMAN",
@@ -585,7 +588,8 @@
       "INT": 0,
       "WIS": 4,
       "CAR": -1
-    }
+    },
+    "vm_base": 30
   },
   "PJ05": {
     "nombre": "BALU",
@@ -732,7 +736,8 @@
       "INT": 4,
       "WIS": -1,
       "CAR": 0
-    }
+    },
+    "vm_base": 30
   },
   "PJ06": {
     "nombre": "LAMINI",
@@ -882,6 +887,7 @@
       "INT": 1,
       "WIS": 1,
       "CAR": 3
-    }
+    },
+    "vm_base": 30
   }
 }
