@@ -29,7 +29,7 @@
     "cd_base": 15,
     "recursos": {
       "OM": {
-        "actual": 8,
+        "actual": 0,
         "max": 8
       }
     },
@@ -177,7 +177,7 @@
     "cd_base": 15,
     "recursos": {
       "OM": {
-        "actual": 8,
+        "actual": 0,
         "max": 8
       }
     },
@@ -325,7 +325,7 @@
     "cd_base": 15,
     "recursos": {
       "OM": {
-        "actual": 8,
+        "actual": 0,
         "max": 8
       }
     },
@@ -473,7 +473,7 @@
     "cd_base": 15,
     "recursos": {
       "OM": {
-        "actual": 8,
+        "actual": 0,
         "max": 8
       }
     },
@@ -621,7 +621,7 @@
     "cd_base": 15,
     "recursos": {
       "OM": {
-        "actual": 8,
+        "actual": 0,
         "max": 8
       }
     },
@@ -769,11 +769,11 @@
     "cd_base": 15,
     "recursos": {
       "ILU": {
-        "actual": 4,
+        "actual": 0,
         "max": 4
       },
       "PRAG": {
-        "actual": 4,
+        "actual": 0,
         "max": 4
       }
     },
