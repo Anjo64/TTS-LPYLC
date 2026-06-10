@@ -1331,5 +1331,79 @@
     "pg": "50",
     "rlua": [],
     "mlua": {}
+  },
+  "S001": {
+    "nombre": "TOKEN AGOTAMIENTO",
+    "tipo": "S",
+    "subcategoria": "A",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {
+      "AGO": 1
+    },
+    "attack_type": []
+  },
+  "S002": {
+    "nombre": "TOKEN OM",
+    "tipo": "S",
+    "subcategoria": "R",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [
+      "CLASS:MINER"
+    ],
+    "mlua": {
+      "OM": 1
+    },
+    "attack_type": []
+  },
+  "S003": {
+    "nombre": "TOKEN ILU",
+    "tipo": "S",
+    "subcategoria": "R",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [
+      "CLASS:SEAMSTRESS"
+    ],
+    "mlua": {
+      "ILU": 1
+    },
+    "attack_type": []
+  },
+  "S004": {
+    "nombre": "TOKEN PRAG",
+    "tipo": "S",
+    "subcategoria": "R",
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "1",
+    "valor_a": "-",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [
+      "CLASS:SEAMSTRESS"
+    ],
+    "mlua": {
+      "PRAG": 1
+    },
+    "attack_type": []
   }
 }
