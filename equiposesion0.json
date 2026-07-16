@@ -15,7 +15,7 @@
     "peso": "4",
     "pg": "25",
     "rlua": [
-      "CLASS:MINER"
+      "CLASS:MINERO"
     ],
     "mlua": {
       "atk": 1
@@ -92,7 +92,7 @@
     "peso": "5",
     "pg": "20",
     "rlua": [
-      "CLASS:MINER",
+      "CLASS:MINERO",
       "FUE>=14"
     ],
     "mlua": {
@@ -1361,7 +1361,7 @@
     "peso": "0.1",
     "pg": "1",
     "rlua": [
-      "CLASS:MINER"
+      "CLASS:MINERO"
     ],
     "mlua": {
       "OM": 1
@@ -1380,7 +1380,7 @@
     "peso": "0.1",
     "pg": "1",
     "rlua": [
-      "CLASS:SEAMSTRESS"
+      "CLASS:HIJA DEL DESIERTO"
     ],
     "mlua": {
       "ILU": 1
@@ -1399,7 +1399,7 @@
     "peso": "0.1",
     "pg": "1",
     "rlua": [
-      "CLASS:SEAMSTRESS"
+      "CLASS:HIJA DEL DESIERTO"
     ],
     "mlua": {
       "PRAG": 1
@@ -1410,111 +1410,123 @@
     "nombre": "GRILLETES DE ESCLAVO",
     "tipo": "C",
     "subcategoria": "M",
-    "attack_type": [],
     "slot": "A",
-    "manos": "-",
+    "manos": "",
+    "attack_type": [],
+    "rlua": [],
+    "mlua": {},
     "tier": "GOLD",
     "valor_w": "-",
     "valor_a": "-",
     "peso": "8",
     "pg": "50",
-    "rlua": [],
-    "mlua": {}
+    "texto": "La poderosa magia del Río Al-Nayl emana de estos grilletes. La mirada y el juicio de la diosa están sobre ti. Tal vez no te los quieras quitar por la fuerza...",
+    "especial": ""
   },
   "X002": {
     "nombre": "VESTIDO DE LAMINI",
     "tipo": "B",
     "subcategoria": "L",
-    "attack_type": [],
     "slot": "C",
-    "manos": "-",
+    "manos": "",
+    "attack_type": [],
+    "rlua": [
+      "CLASS:HIJA DEL DESIERTO"
+    ],
+    "mlua": {
+      "eva": 3,
+      "CAR": 1
+    },
     "tier": "SILVER",
     "valor_w": "20",
     "valor_a": "3",
     "peso": "3",
     "pg": "8",
-    "rlua": [
-      "CLASS:SEAMSTRESS"
-    ],
-    "mlua": {
-      "eva": 3,
-      "car": 1
-    }
+    "texto": "Ropas elegantes y coloridas. Hermosamente tejidas por manos hábiles pero ingeniosamente ajustadas para otorgar un movimiento inusualmente libre.",
+    "especial": ""
   },
   "X003": {
     "nombre": "AGUJA DE HUESO",
     "tipo": "A",
     "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
     "attack_type": [
       "M",
       "R"
     ],
-    "slot": "H",
-    "manos": "1",
+    "rlua": [
+      "CLASS:HIJA DEL DESIERTO"
+    ],
+    "mlua": {
+      "atk": 1
+    },
     "tier": "BRONZE",
     "valor_w": "1",
     "valor_a": "-",
     "peso": "1",
     "pg": "3",
-    "rlua": [
-      "CLASS:SEAMSTRESS"
-    ],
-    "mlua": {
-      "atk": 1
-    }
+    "texto": "Una herramienta de trabajo que puedes esgrimir como arma en una situación de emergencia. Hecha con hueso de dromedario es sólida y duradera.",
+    "especial": ""
   },
   "X004": {
     "nombre": "SAL DE HOR",
     "tipo": "E",
     "subcategoria": "U",
-    "attack_type": [],
     "slot": "T",
-    "manos": "-",
+    "manos": "",
+    "attack_type": [],
+    "rlua": [],
+    "mlua": {
+      "PV": 2
+    },
     "tier": "SILVER",
     "valor_w": "25",
     "valor_a": "3",
     "peso": "0.2",
     "pg": "2",
-    "rlua": [],
-    "mlua": {
-      "PV": 2
-    }
+    "texto": "En lo profundo de la mina se encuentran los restos de lo que fue una suerte de amuleto o talismán. No es más que una pequeña bolsa de lino con trocitos de sal gruesa, de un color casi jade.",
+    "especial": "Otorga ventaja en las TS contra efectos de encantamiento y miedo."
   },
   "X005": {
     "nombre": "CUCHILLO DEL WADI",
     "tipo": "A",
     "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
     "attack_type": [
       "M",
       "R"
     ],
-    "slot": "H",
-    "manos": "1",
+    "rlua": [],
+    "mlua": {},
     "tier": "BRONZE",
     "valor_w": "4",
     "valor_a": "1",
     "peso": "0.5",
     "pg": "2",
-    "rlua": [],
-    "mlua": {}
+    "texto": "Un cuchillo sencillo de mango de hueso y hoja de bronce, común en cada cinto del Wadi. Sirve para la faena diaria y, si hace falta, para defenderse.",
+    "especial": ""
   },
   "X006": {
     "nombre": "GLADIUS DE LOS WASIR",
     "tipo": "A",
     "subcategoria": "S",
+    "slot": "H",
+    "manos": "1",
     "attack_type": [
       "M"
     ],
-    "slot": "H",
-    "manos": "1",
+    "rlua": [],
+    "mlua": {
+      "atk": 2
+    },
     "tier": "GOLD",
     "valor_w": "150",
     "valor_a": "15",
     "peso": "1.5",
     "pg": "12",
-    "rlua": [],
-    "mlua": {
-      "atk": 2
-    }
+    "texto": "Una espada corta de doble filo, reliquia muy querida de la familia Wasir. Perteneció al padre de Zemi y fue traída desde Thalasia, donde las llaman gladius. Un objeto rarísimo en Ashkum, donde apenas se conocen.",
+    "especial": "GUARDIA DEL DUELISTA: Cuando una criatura te ataca, usas tu reacción para ganar +2 a tu Evasión contra ese ataque."
   }
 }
