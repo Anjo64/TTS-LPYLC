@@ -1452,8 +1452,7 @@
     "slot": "H",
     "manos": "1",
     "attack_type": [
-      "M",
-      "R"
+      "M"
     ],
     "rlua": [
       "CLASS:HIJA DEL DESIERTO"
