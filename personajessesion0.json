@@ -145,7 +145,12 @@
       "WIS": 4,
       "CAR": -1
     },
-    "vm_base": 30
+    "vm_base": 30,
+    "armor_prof": [
+      "L",
+      "M",
+      "H"
+    ]
   },
   "PJ02": {
     "nombre": "NASIR",
@@ -293,7 +298,10 @@
       "WIS": 1,
       "CAR": -1
     },
-    "vm_base": 30
+    "vm_base": 30,
+    "armor_prof": [
+      "L"
+    ]
   },
   "PJ03": {
     "nombre": "ZEMI",
@@ -441,7 +449,12 @@
       "WIS": 1,
       "CAR": -1
     },
-    "vm_base": 30
+    "vm_base": 30,
+    "armor_prof": [
+      "L",
+      "M",
+      "H"
+    ]
   },
   "PJ04": {
     "nombre": "KAMAN",
@@ -589,7 +602,11 @@
       "WIS": 4,
       "CAR": -1
     },
-    "vm_base": 30
+    "vm_base": 30,
+    "armor_prof": [
+      "L",
+      "M"
+    ]
   },
   "PJ05": {
     "nombre": "BALU",
@@ -737,7 +754,10 @@
       "WIS": -1,
       "CAR": 0
     },
-    "vm_base": 30
+    "vm_base": 30,
+    "armor_prof": [
+      "L"
+    ]
   },
   "PJ06": {
     "nombre": "LAMINI",
@@ -888,6 +908,9 @@
       "WIS": 1,
       "CAR": 3
     },
-    "vm_base": 30
+    "vm_base": 30,
+    "armor_prof": [
+      "L"
+    ]
   }
 }
