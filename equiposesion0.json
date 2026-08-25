@@ -15,7 +15,7 @@
     "peso": "4",
     "pg": "25",
     "rlua": [
-      "CLASS:MINERO"
+      "CLASS:MINER"
     ],
     "mlua": {
       "atk": 1
@@ -39,7 +39,7 @@
     "mlua": {}
   },
   "A003": {
-    "nombre": "LANZA DE GUARDIA DEL WADI",
+    "nombre": "LANZA DE GUARDIA",
     "tipo": "A",
     "subcategoria": "M",
     "attack_type": [
@@ -78,7 +78,7 @@
     }
   },
   "A005": {
-    "nombre": "PICO  DE OBSIDIANA",
+    "nombre": "PICO DE OBSIDIANA",
     "tipo": "A",
     "subcategoria": "S",
     "attack_type": [
@@ -92,7 +92,7 @@
     "peso": "5",
     "pg": "20",
     "rlua": [
-      "CLASS:MINERO",
+      "CLASS:MINER",
       "FUE>=14"
     ],
     "mlua": {
@@ -248,7 +248,7 @@
       "M"
     ],
     "slot": "H",
-    "manos": "-",
+    "manos": "1_o_2",
     "tier": "BRONZE",
     "valor_w": "3",
     "valor_a": "-",
@@ -258,7 +258,7 @@
     "mlua": {}
   },
   "B001": {
-    "nombre": "ARMADURA DE GUARDIA DEL WADI",
+    "nombre": "ARMADURA DE GUARDIA",
     "tipo": "B",
     "subcategoria": "M",
     "attack_type": [],
@@ -273,7 +273,7 @@
       "FUE>=11"
     ],
     "mlua": {
-      "arm": 3,
+      "arm": 1,
       "eva": 1
     }
   },
@@ -291,7 +291,7 @@
     "pg": "8",
     "rlua": [],
     "mlua": {
-      "eva": 2
+      "eva": 1
     }
   },
   "B003": {
@@ -310,8 +310,8 @@
       "FUE>=13"
     ],
     "mlua": {
-      "arm": 4,
-      "eva": 1,
+      "arm": 2,
+      "eva": -1,
       "res": "CORT"
     }
   },
@@ -331,7 +331,7 @@
       "FUE>=13"
     ],
     "mlua": {
-      "arm": 5,
+      "arm": 3,
       "eva": -2,
       "res": "CONT"
     }
@@ -350,7 +350,7 @@
     "pg": "12",
     "rlua": [],
     "mlua": {
-      "arm": 1
+      "eva": 1
     }
   },
   "B006": {
@@ -367,12 +367,11 @@
     "pg": "25",
     "rlua": [],
     "mlua": {
-      "arm": 1,
-      "eva": 1
+      "arm": 1
     }
   },
   "B007": {
-    "nombre": "BRAZALES DE MINERO VETERANO",
+    "nombre": "BRAZALES DEL MINERO NEGRO",
     "tipo": "B",
     "subcategoria": "L",
     "attack_type": [],
@@ -386,7 +385,7 @@
     "rlua": [],
     "mlua": {
       "eva": 2,
-      "FUE": 1
+      "fue": 1
     }
   },
   "B008": {
@@ -422,11 +421,12 @@
       "FUE>=12"
     ],
     "mlua": {
-      "arm": 2
+      "arm": 2,
+      "eva": -3
     }
   },
   "B010": {
-    "nombre": "ESCUDO DE MADERA REFORZADO",
+    "nombre": "ESCUDO DE MADERA",
     "tipo": "B",
     "subcategoria": "M",
     "attack_type": [],
@@ -441,12 +441,12 @@
       "FUE>=12"
     ],
     "mlua": {
-      "arm": 2,
+      "arm": 1,
       "eva": 1
     }
   },
   "B011": {
-    "nombre": "ESCUDO DE CUERO ENDURECIDO",
+    "nombre": "ESCUDO DE CUERO",
     "tipo": "B",
     "subcategoria": "L",
     "attack_type": [],
@@ -459,8 +459,7 @@
     "pg": "22",
     "rlua": [],
     "mlua": {
-      "arm": 1,
-      "eva": 1
+      "eva": 2
     }
   },
   "C001": {
@@ -532,14 +531,14 @@
     "attack_type": [],
     "slot": "A",
     "manos": "-",
-    "tier": "BRONZE",
+    "tier": "SILVER",
     "valor_w": "18",
     "valor_a": "2",
     "peso": "1",
     "pg": "5",
     "rlua": [],
     "mlua": {
-      "CAR": 1
+      "car": 1
     }
   },
   "C006": {
@@ -557,11 +556,11 @@
     "rlua": [],
     "mlua": {
       "arm": 1,
-      "WIS": 1
+      "wis": 1
     }
   },
   "C007": {
-    "nombre": "MÀSCARA DE LINO DE SHU",
+    "nombre": "MÁSCARA DE LINO DE SHU",
     "tipo": "C",
     "subcategoria": "C",
     "attack_type": [],
@@ -638,12 +637,12 @@
     "pg": "12",
     "rlua": [],
     "mlua": {
-      "CON": 1,
-      "PV": 4
+      "con": 1,
+      "pv": 4
     }
   },
   "D001": {
-    "nombre": "CAMPANILLA DE PLATA (RESTAURADA)",
+    "nombre": "CAMPANILLA DE PLATA",
     "tipo": "D",
     "subcategoria": "M",
     "attack_type": [],
@@ -703,7 +702,7 @@
     "mlua": {}
   },
   "D006": {
-    "nombre": "PALANCA DE MADERA DE ACACIA",
+    "nombre": "PALANCA DE ACACIA",
     "tipo": "D",
     "subcategoria": "C",
     "attack_type": [],
@@ -821,8 +820,8 @@
     "pg": "2",
     "rlua": [],
     "mlua": {
-      "WIS": 1,
-      "PV": 2
+      "wis": 1,
+      "pv": 2
     }
   },
   "E002": {
@@ -856,8 +855,8 @@
     "pg": "2",
     "rlua": [],
     "mlua": {
-      "FUE": 2,
-      "PV": 2
+      "fue": 2,
+      "pv": 2
     }
   },
   "E004": {
@@ -913,7 +912,7 @@
     }
   },
   "F001": {
-    "nombre": "ODRE DE AGUA CON VINAGRE DE LA TIA MILI",
+    "nombre": "ODRE DE LA TÍA MILI",
     "tipo": "F",
     "subcategoria": "M",
     "attack_type": [],
@@ -958,7 +957,7 @@
     "mlua": {}
   },
   "F004": {
-    "nombre": "MIRADA PLATEADA",
+    "nombre": "POLVO DE LUNA",
     "tipo": "F",
     "subcategoria": "C",
     "attack_type": [],
@@ -988,7 +987,7 @@
     "mlua": {}
   },
   "F006": {
-    "nombre": "POCIÓN DE CURAR HERIDAS MENORES",
+    "nombre": "POCIÓN DE CURACIÓN",
     "tipo": "F",
     "subcategoria": "M",
     "attack_type": [],
@@ -1018,7 +1017,7 @@
     "mlua": {}
   },
   "F008": {
-    "nombre": "POLVO DE MALAQUITA DEL WADI",
+    "nombre": "POLVO DE MALAQUITA",
     "tipo": "F",
     "subcategoria": "C",
     "attack_type": [],
@@ -1168,7 +1167,7 @@
     "mlua": {}
   },
   "G006": {
-    "nombre": "LLAVE DE GRILLETES DE BRONCE",
+    "nombre": "LLAVE DE GRILLETES",
     "tipo": "G",
     "subcategoria": "C",
     "attack_type": [],
@@ -1288,7 +1287,7 @@
     "mlua": {}
   },
   "I001": {
-    "nombre": "PEPITAS DE GALENA ARGENTIFERA",
+    "nombre": "PEPITAS DE GALENA",
     "tipo": "I",
     "subcategoria": "C",
     "attack_type": [],
@@ -1361,7 +1360,7 @@
     "peso": "0.1",
     "pg": "1",
     "rlua": [
-      "CLASS:MINERO"
+      "CLASS:MINER"
     ],
     "mlua": {
       "OM": 1
@@ -1380,7 +1379,7 @@
     "peso": "0.1",
     "pg": "1",
     "rlua": [
-      "CLASS:HIJA DEL DESIERTO"
+      "CLASS:SEAMSTRESS"
     ],
     "mlua": {
       "ILU": 1
@@ -1399,133 +1398,802 @@
     "peso": "0.1",
     "pg": "1",
     "rlua": [
-      "CLASS:HIJA DEL DESIERTO"
+      "CLASS:SEAMSTRESS"
     ],
     "mlua": {
       "PRAG": 1
     },
     "attack_type": []
   },
-  "X001": {
+  "C012": {
     "nombre": "GRILLETES DE ESCLAVO",
     "tipo": "C",
     "subcategoria": "M",
-    "slot": "A",
-    "manos": "",
     "attack_type": [],
-    "rlua": [],
-    "mlua": {},
+    "slot": "A",
+    "manos": "-",
     "tier": "GOLD",
     "valor_w": "-",
     "valor_a": "-",
     "peso": "8",
     "pg": "50",
-    "texto": "La poderosa magia del Río Al-Nayl emana de estos grilletes. La mirada y el juicio de la diosa están sobre ti. Tal vez no te los quieras quitar por la fuerza...",
-    "especial": ""
+    "rlua": [],
+    "mlua": {}
   },
-  "X002": {
+  "B012": {
     "nombre": "VESTIDO DE LAMINI",
     "tipo": "B",
     "subcategoria": "L",
-    "slot": "C",
-    "manos": "",
     "attack_type": [],
-    "rlua": [
-      "CLASS:HIJA DEL DESIERTO"
-    ],
-    "mlua": {
-      "eva": 3,
-      "CAR": 1
-    },
+    "slot": "C",
+    "manos": "-",
     "tier": "SILVER",
     "valor_w": "20",
     "valor_a": "3",
     "peso": "3",
     "pg": "8",
-    "texto": "Ropas elegantes y coloridas. Hermosamente tejidas por manos hábiles pero ingeniosamente ajustadas para otorgar un movimiento inusualmente libre.",
-    "especial": ""
+    "rlua": [
+      "CLASS:SEAMSTRESS"
+    ],
+    "mlua": {
+      "eva": 2,
+      "car": 1
+    }
   },
-  "X003": {
+  "A014": {
     "nombre": "AGUJA DE HUESO",
     "tipo": "A",
     "subcategoria": "S",
+    "attack_type": [
+      "M",
+      "R"
+    ],
     "slot": "H",
     "manos": "1",
-    "attack_type": [
-      "M"
-    ],
-    "rlua": [
-      "CLASS:HIJA DEL DESIERTO"
-    ],
-    "mlua": {
-      "atk": 1
-    },
     "tier": "BRONZE",
     "valor_w": "1",
     "valor_a": "-",
     "peso": "1",
     "pg": "3",
-    "texto": "Una herramienta de trabajo que puedes esgrimir como arma en una situación de emergencia. Hecha con hueso de dromedario es sólida y duradera.",
-    "especial": ""
-  },
-  "X004": {
-    "nombre": "SAL DE HOR",
-    "tipo": "E",
-    "subcategoria": "U",
-    "slot": "T",
-    "manos": "",
-    "attack_type": [],
-    "rlua": [],
+    "rlua": [
+      "CLASS:SEAMSTRESS"
+    ],
     "mlua": {
-      "PV": 2
-    },
-    "tier": "SILVER",
-    "valor_w": "25",
-    "valor_a": "3",
-    "peso": "0.2",
-    "pg": "2",
-    "texto": "En lo profundo de la mina se encuentran los restos de lo que fue una suerte de amuleto o talismán. No es más que una pequeña bolsa de lino con trocitos de sal gruesa, de un color casi jade.",
-    "especial": "Otorga ventaja en las TS contra efectos de encantamiento y miedo."
+      "atk": 1
+    }
   },
-  "X005": {
+  "A015": {
     "nombre": "CUCHILLO DEL WADI",
     "tipo": "A",
     "subcategoria": "S",
-    "slot": "H",
-    "manos": "1",
     "attack_type": [
       "M",
       "R"
     ],
-    "rlua": [],
-    "mlua": {},
+    "slot": "H",
+    "manos": "1",
     "tier": "BRONZE",
     "valor_w": "4",
     "valor_a": "1",
     "peso": "0.5",
     "pg": "2",
-    "texto": "Un cuchillo sencillo de mango de hueso y hoja de bronce, común en cada cinto del Wadi. Sirve para la faena diaria y, si hace falta, para defenderse.",
-    "especial": ""
+    "rlua": [],
+    "mlua": {}
   },
-  "X006": {
+  "A016": {
     "nombre": "GLADIUS DE LOS WASIR",
     "tipo": "A",
     "subcategoria": "S",
-    "slot": "H",
-    "manos": "1",
     "attack_type": [
       "M"
     ],
-    "rlua": [],
-    "mlua": {
-      "atk": 2
-    },
+    "slot": "H",
+    "manos": "1",
     "tier": "GOLD",
     "valor_w": "150",
     "valor_a": "15",
     "peso": "1.5",
     "pg": "12",
-    "texto": "Una espada corta de doble filo, reliquia muy querida de la familia Wasir. Perteneció al padre de Zemi y fue traída desde Thalasia, donde las llaman gladius. Un objeto rarísimo en Ashkum, donde apenas se conocen.",
-    "especial": "GUARDIA DEL DUELISTA: Cuando una criatura te ataca, usas tu reacción para ganar +2 a tu Evasión contra ese ataque."
+    "rlua": [],
+    "mlua": {
+      "atk": 2
+    }
+  },
+  "E007": {
+    "nombre": "VASIJA DE IB",
+    "tipo": "E",
+    "subcategoria": "U",
+    "attack_type": [],
+    "slot": "T",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "150",
+    "valor_a": "15",
+    "peso": "0.2",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {
+      "wis": 2
+    }
+  },
+  "E008": {
+    "nombre": "RELICARIO SOL-DE-LUNA",
+    "tipo": "E",
+    "subcategoria": "U",
+    "attack_type": [],
+    "slot": "T",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "4",
+    "peso": "0.1",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {
+      "int": 1,
+      "eva": 1
+    }
+  },
+  "E009": {
+    "nombre": "MEDALLÓN DE NAYB-RUK",
+    "tipo": "E",
+    "subcategoria": "U",
+    "attack_type": [],
+    "slot": "T",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "0.2",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {
+      "car": -2,
+      "atk": 1
+    }
+  },
+  "E010": {
+    "nombre": "SELLO DEL ESCARABAJO",
+    "tipo": "E",
+    "subcategoria": "U",
+    "attack_type": [],
+    "slot": "T",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "120",
+    "valor_a": "12",
+    "peso": "0.1",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {
+      "arm": 1,
+      "eva": -2,
+      "pv": 5
+    }
+  },
+  "I004": {
+    "nombre": "ESTANDARTE DEL LEÓN",
+    "tipo": "I",
+    "subcategoria": "-",
+    "attack_type": [],
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "0",
+    "valor_a": "0",
+    "peso": "1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "I005": {
+    "nombre": "NOTAS DE VLAZZ",
+    "tipo": "I",
+    "subcategoria": "-",
+    "attack_type": [],
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "0",
+    "valor_a": "0",
+    "peso": "0.1",
+    "pg": "1",
+    "rlua": [],
+    "mlua": {}
+  },
+  "I006": {
+    "nombre": "MUÑEQUITOS DE BARRO",
+    "tipo": "I",
+    "subcategoria": "-",
+    "attack_type": [],
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "0",
+    "valor_a": "0",
+    "peso": "0.3",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "G009": {
+    "nombre": "GANZUAS DE NASIR",
+    "tipo": "G",
+    "subcategoria": "-",
+    "attack_type": [],
+    "slot": "-",
+    "manos": "-",
+    "tier": "BRONZE",
+    "valor_w": "5",
+    "valor_a": "1",
+    "peso": "0.1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "C013": {
+    "nombre": "DUNA",
+    "tipo": "C",
+    "subcategoria": "U",
+    "attack_type": [],
+    "slot": "A",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "35",
+    "valor_a": "4",
+    "peso": "0.5",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {
+      "dex": 1,
+      "eva": 1
+    }
+  },
+  "B013": {
+    "nombre": "TÚNICA HEMEKAK",
+    "tipo": "B",
+    "subcategoria": "L",
+    "attack_type": [],
+    "slot": "C",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "3",
+    "peso": "2",
+    "pg": "6",
+    "rlua": [],
+    "mlua": {
+      "eva": 2
+    }
+  },
+  "B014": {
+    "nombre": "ESCUDO HEMEKAK",
+    "tipo": "B",
+    "subcategoria": "M",
+    "attack_type": [],
+    "slot": "H",
+    "manos": "1",
+    "tier": "SILVER",
+    "valor_w": "40",
+    "valor_a": "4",
+    "peso": "3.5",
+    "pg": "15",
+    "rlua": [
+      "FUE>=12"
+    ],
+    "mlua": {
+      "arm": 1
+    }
+  },
+  "B015": {
+    "nombre": "ARMADURA KHENEMET",
+    "tipo": "B",
+    "subcategoria": "H",
+    "attack_type": [],
+    "slot": "C",
+    "manos": "-",
+    "tier": "GOLD",
+    "valor_w": "90",
+    "valor_a": "9",
+    "peso": "12",
+    "pg": "40",
+    "rlua": [
+      "FUE>=14"
+    ],
+    "mlua": {
+      "arm": 2,
+      "eva": -1,
+      "res": "CONT"
+    }
+  },
+  "B016": {
+    "nombre": "ESCUDO DE TORRE",
+    "tipo": "B",
+    "subcategoria": "H",
+    "attack_type": [],
+    "slot": "H",
+    "manos": "1",
+    "tier": "GOLD",
+    "valor_w": "70",
+    "valor_a": "7",
+    "peso": "8",
+    "pg": "25",
+    "rlua": [
+      "FUE>=15"
+    ],
+    "mlua": {
+      "arm": 3,
+      "eva": -3
+    }
+  },
+  "F013": {
+    "nombre": "SUEÑOS DE LA ARENA",
+    "tipo": "F",
+    "subcategoria": "U",
+    "attack_type": [],
+    "slot": "-",
+    "manos": "-",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "0.1",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "A017": {
+    "nombre": "GRAN MAZA",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "150",
+    "valor_a": "15",
+    "peso": "9",
+    "pg": "30",
+    "rlua": [
+      "FUE>=19"
+    ],
+    "mlua": {
+      "atk": 6
+    }
+  },
+  "A018": {
+    "nombre": "GARROTE HEMEKAK",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "3",
+    "pg": "10",
+    "rlua": [],
+    "mlua": {}
+  },
+  "A019": {
+    "nombre": "DAGA HEMEKAK",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1",
+    "tier": "BRONZE",
+    "valor_w": "3",
+    "valor_a": "0",
+    "peso": "0.4",
+    "pg": "2",
+    "rlua": [],
+    "mlua": {}
+  },
+  "A020": {
+    "nombre": "VARA HEMEKAK",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "130",
+    "valor_a": "13",
+    "peso": "1.5",
+    "pg": "8",
+    "rlua": [
+      "WIS>=12"
+    ],
+    "mlua": {
+      "int": 2
+    }
+  },
+  "A021": {
+    "nombre": "LANZA LARGA DE CABALLERÍA",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "140",
+    "valor_a": "14",
+    "peso": "3.5",
+    "pg": "15",
+    "rlua": [
+      "FUE>=14"
+    ],
+    "mlua": {
+      "atk": 3
+    }
+  },
+  "A022": {
+    "nombre": "SHISHPAR",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "35",
+    "valor_a": "4",
+    "peso": "2",
+    "pg": "12",
+    "rlua": [],
+    "mlua": {
+      "atk": 2
+    }
+  },
+  "A023": {
+    "nombre": "ARCO COMPUESTO RECURVO",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "R"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "130",
+    "valor_a": "13",
+    "peso": "1.5",
+    "pg": "8",
+    "rlua": [
+      "DEX>=12"
+    ],
+    "mlua": {
+      "atk": 3
+    }
+  },
+  "A024": {
+    "nombre": "ARCO COMPUESTO DE GRAN ALCANCE",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "R"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "150",
+    "valor_a": "15",
+    "peso": "2",
+    "pg": "10",
+    "rlua": [
+      "DEX>=13"
+    ],
+    "mlua": {
+      "atk": 3
+    }
+  },
+  "A025": {
+    "nombre": "SABLE ESTEPARIO",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "3",
+    "peso": "1.5",
+    "pg": "10",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A026": {
+    "nombre": "MAZA SENCILLA",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "BRONZE",
+    "valor_w": "5",
+    "valor_a": "1",
+    "peso": "2",
+    "pg": "8",
+    "rlua": [],
+    "mlua": {}
+  },
+  "A027": {
+    "nombre": "JABALINA ESTEPARIA",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M",
+      "R"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "15",
+    "valor_a": "2",
+    "peso": "1",
+    "pg": "6",
+    "rlua": [
+      "DEX>=12"
+    ],
+    "mlua": {}
+  },
+  "A028": {
+    "nombre": "MANGUAL DE HUESO",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "1.5",
+    "pg": "8",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A029": {
+    "nombre": "LANZA CORTA",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M",
+      "R"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "18",
+    "valor_a": "2",
+    "peso": "1.5",
+    "pg": "8",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A030": {
+    "nombre": "ARCO CORTO",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "R"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "SILVER",
+    "valor_w": "35",
+    "valor_a": "4",
+    "peso": "1",
+    "pg": "8",
+    "rlua": [
+      "DEX>=12"
+    ],
+    "mlua": {
+      "atk": 2
+    }
+  },
+  "A031": {
+    "nombre": "BALLESTA CRUEL",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "R"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "140",
+    "valor_a": "14",
+    "peso": "5",
+    "pg": "15",
+    "rlua": [
+      "FUE>=13"
+    ],
+    "mlua": {
+      "atk": 3
+    }
+  },
+  "A032": {
+    "nombre": "PUÑAL SERRADO",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1",
+    "tier": "SILVER",
+    "valor_w": "15",
+    "valor_a": "2",
+    "peso": "0.5",
+    "pg": "4",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A033": {
+    "nombre": "ESTILETE PRETENCIOSO",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1",
+    "tier": "BRONZE",
+    "valor_w": "8",
+    "valor_a": "1",
+    "peso": "0.3",
+    "pg": "3",
+    "rlua": [],
+    "mlua": {}
+  },
+  "A034": {
+    "nombre": "VARITA DE DETONACIÓN",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "R"
+    ],
+    "slot": "H",
+    "manos": "1",
+    "tier": "GOLD",
+    "valor_w": "140",
+    "valor_a": "14",
+    "peso": "0.3",
+    "pg": "4",
+    "rlua": [
+      "INT>=14"
+    ],
+    "mlua": {
+      "int": 2
+    }
+  },
+  "A035": {
+    "nombre": "MANGUAL DEL OCASO",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "GOLD",
+    "valor_w": "130",
+    "valor_a": "13",
+    "peso": "2.5",
+    "pg": "12",
+    "rlua": [
+      "FUE>=12"
+    ],
+    "mlua": {
+      "atk": 3
+    }
+  },
+  "A036": {
+    "nombre": "ESPADA CORTA DE BRONCE",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1_o_2",
+    "tier": "SILVER",
+    "valor_w": "25",
+    "valor_a": "3",
+    "peso": "1.5",
+    "pg": "10",
+    "rlua": [],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A037": {
+    "nombre": "MAZA PESADA",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "2",
+    "tier": "GOLD",
+    "valor_w": "130",
+    "valor_a": "13",
+    "peso": "6",
+    "pg": "20",
+    "rlua": [
+      "FUE>=14"
+    ],
+    "mlua": {
+      "atk": 3
+    }
+  },
+  "A038": {
+    "nombre": "DAGA DE BRONCE",
+    "tipo": "A",
+    "subcategoria": "S",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1",
+    "tier": "SILVER",
+    "valor_w": "20",
+    "valor_a": "2",
+    "peso": "0.4",
+    "pg": "4",
+    "rlua": [
+      "DEX>=10"
+    ],
+    "mlua": {
+      "atk": 1
+    }
+  },
+  "A039": {
+    "nombre": "ESTOQUE DE BRONCE",
+    "tipo": "A",
+    "subcategoria": "M",
+    "attack_type": [
+      "M"
+    ],
+    "slot": "H",
+    "manos": "1",
+    "tier": "SILVER",
+    "valor_w": "30",
+    "valor_a": "3",
+    "peso": "1",
+    "pg": "6",
+    "rlua": [
+      "DEX>=12"
+    ],
+    "mlua": {
+      "atk": 1
+    }
   }
 }
