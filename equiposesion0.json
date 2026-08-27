@@ -2198,5 +2198,23 @@
     "mlua": {
       "atk": 1
     }
+  },
+  "RG002": {
+    "nombre": "MINERO LÍDER",
+    "pj": "Kabul",
+    "tipo_rasgo": "ADICIONAL",
+    "mlua": {
+      "persuasion": 2,
+      "intimidation": 2
+    }
+  },
+  "RG006": {
+    "nombre": "EL VELOZ",
+    "pj": "Nasir",
+    "tipo_rasgo": "ADICIONAL",
+    "mlua": {
+      "vm": 10,
+      "eva": 1
+    }
   }
 }
