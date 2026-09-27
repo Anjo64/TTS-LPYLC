@@ -1,7 +1,8 @@
 {
   "PJ01": {
     "nombre": "KABUL",
-    "clase": "MINERO",
+    "clase": "MINER",
+    "clase_display": "MINERO",
     "arquetipo": "CONTROLADOR",
     "nivel": 1,
     "caracteristicas": {
@@ -154,7 +155,8 @@
   },
   "PJ02": {
     "nombre": "NASIR",
-    "clase": "MINERO",
+    "clase": "MINER",
+    "clase_display": "MINERO",
     "arquetipo": "FLANCO",
     "nivel": 1,
     "caracteristicas": {
@@ -305,7 +307,8 @@
   },
   "PJ03": {
     "nombre": "ZENKI",
-    "clase": "MINERO",
+    "clase": "MINER",
+    "clase_display": "MINERO",
     "arquetipo": "TANQUE",
     "nivel": 1,
     "caracteristicas": {
@@ -458,7 +461,8 @@
   },
   "PJ04": {
     "nombre": "KAMAN",
-    "clase": "MINERO",
+    "clase": "MINER",
+    "clase_display": "MINERO",
     "arquetipo": "SOPORTE",
     "nivel": 1,
     "caracteristicas": {
@@ -610,7 +614,8 @@
   },
   "PJ05": {
     "nombre": "BALU",
-    "clase": "MINERO",
+    "clase": "MINER",
+    "clase_display": "MINERO",
     "arquetipo": "ARTILLERO",
     "nivel": 1,
     "caracteristicas": {
@@ -761,7 +766,8 @@
   },
   "PJ06": {
     "nombre": "LAMINI",
-    "clase": "HIJA DEL DESIERTO",
+    "clase": "SEAMSTRESS",
+    "clase_display": "HIJA DEL DESIERTO",
     "arquetipo": "VERSATIL",
     "nivel": 1,
     "caracteristicas": {
